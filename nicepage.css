@@ -42216,6 +42216,15 @@ a.u-link.u-text-hover-grey-90:hover {
     height: 550px;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .u-image-2-1{
+    top: -350px;
+    left: 25px;
+  }
+  .u-image-2-2{
+    left: 50px;
+  }
+}
 #bulle{
   animation: 1s ease-in-out 1s infinite alternate slidein;
 }

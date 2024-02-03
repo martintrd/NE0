@@ -153,11 +153,6 @@
     padding-right: 13px;
   }
 
-  .u-section-1 .u-text-2 {
-    margin-top: 125px;
-    margin-right: 86px;
-    margin-left: 11px;
-  }
 
   .u-section-1 .u-btn-1 {
     margin-top: -59px;
@@ -1451,6 +1446,58 @@
     left: 279px;
     width: 126px;
     height: 209px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #divécran2{
+    transform: perspective(1000px) rotateY(-48deg) rotateX(0deg) rotateZ(0deg);
+    top: 105px;
+    left: 206px;
+    width: 137px;
+    height: 278px;
+  }
+  #divécran3{
+    transform: perspective(1000px) rotateY(45deg) rotateX(0deg) rotateZ(0deg);
+    top: 39px;
+    left: 389px;
+    width: 133px;
+    height: 278px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #divécran2{
+    transform: perspective(1000px) rotateY(-52deg) rotateX(0deg) rotateZ(0deg);
+    top: 115px;
+    left: 149px;
+    width: 114px;
+    height: 209px;
+    border-radius: 14px;
+  }
+  #divécran3{
+    transform: perspective(1000px) rotateY(50deg) rotateX(0deg) rotateZ(0deg);
+    top: 65px;
+    left: 287px;
+    width: 109px;
+    height: 209px;
+    border-radius: 14px;
+  }
+}
+@media (max-width: 575px) {
+  #divécran2{
+    transform: perspective(1000px) rotateY(-65deg) rotateX(0deg) rotateZ(0deg);
+    top: 160px;
+    left: 77px;
+    width: 106px;
+    height: 131px;
+    border-radius: 12px;
+  }
+  #divécran3{
+    transform: perspective(1000px) rotateY(65deg) rotateX(0deg) rotateZ(0deg);
+    top: 128px;
+    left: 162px;
+    width: 106px;
+    height: 132px;
+    border-radius: 12px;
   }
 }
 .u-section-6 {
