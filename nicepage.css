@@ -42167,6 +42167,17 @@ a.u-link.u-text-hover-grey-90:hover {
     left: 20px;
   }
 }
+#bulle{
+  animation: 1s ease-in-out 1s infinite alternate slidein;
+}
+@-webkit-keyframes slidein {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -25px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-group-1-1{
     top: -275px;
@@ -42225,14 +42236,29 @@ a.u-link.u-text-hover-grey-90:hover {
     left: 50px;
   }
 }
-#bulle{
-  animation: 1s ease-in-out 1s infinite alternate slidein;
-}
-@-webkit-keyframes slidein {
-  from {
-    top: 0px;
+@media (min-width: 576px) and (max-width: 767px) {
+  .u-image-2-1{
+    top: -775px;
+    left: -135px;
   }
-  to {
-    top: -25px;
+  .u-image-2-2{
+    top: -1615px;
+    left: 200px;
+  }
+  .u-section-1{
+    height: 550px;
+  }
+}
+@media (max-width: 575px) {
+  .u-image-2-1{
+    top: -660px;
+    left: -70px;
+  }
+  .u-image-2-2{
+    top: -1282px;
+    left: -1px;
+  }
+  .u-section-1{
+    height: 550px;
   }
 }
