@@ -344,9 +344,6 @@
 }
 
 @media (max-width: 991px) {
-   .u-section-2 {
-    min-height: 737px;
-  }
 
   .u-section-2 .u-image-1 {
     width: 334px;
@@ -374,9 +371,6 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-2 {
-    min-height: 100vh;
-  }
 
   .u-section-2 .u-image-1 {
     width: 352px;
@@ -413,9 +407,6 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-2 {
-    min-height: 1162px;
-  }
 
   .u-section-2 .u-image-1 {
     width: 330px;

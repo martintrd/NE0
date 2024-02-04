@@ -42235,6 +42235,16 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-image-2-2{
     left: 50px;
   }
+  #div2{
+    top: 25px;
+    left: 3rem;
+  }
+  .u-section-2{
+    height: 875px;
+  }
+  #T3{
+    width: 550px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-image-2-1{
@@ -42248,6 +42258,16 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-section-1{
     height: 550px;
   }
+  #div2{
+    top: -175px;
+    left: 2rem;
+  }
+  .u-section-2{
+    height: 825px;
+  }
+  #T3{
+    width: 450px;
+  }
 }
 @media (max-width: 575px) {
   .u-image-2-1{
@@ -42260,5 +42280,15 @@ a.u-link.u-text-hover-grey-90:hover {
   }
   .u-section-1{
     height: 550px;
+  }
+  #div2{
+    top: -325px;
+    left: calc(20vw - 50px);
+  }
+  .u-section-2{
+    height: 875px;
+  }
+  #T3{
+    width: 400px;
   }
 }
