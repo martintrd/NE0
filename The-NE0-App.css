@@ -453,7 +453,6 @@
 } .u-section-3 {
   background-image: url("images/neo_logo_v1_final_big_black.png");
   background-position: 50% 50%;
-  min-height: 800px;
 }
 
 .u-section-3 .u-image-1 {
@@ -533,9 +532,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3 {
-    min-height: 834px;
-  }
 
   .u-section-3 .u-image-2 {
     margin-right: calc(((100% - 940px) / 2) + 40px);
@@ -567,9 +563,6 @@
 }
 
 @media (max-width: 991px) {
-   .u-section-3 {
-    min-height: 639px;
-  }
 
   .u-section-3 .u-image-2 {
     margin-right: calc(((100% - 720px) / 2) + 40px);
@@ -590,9 +583,6 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-3 {
-    min-height: 781px;
-  }
 
   .u-section-3 .u-image-2 {
     margin-right: calc(((100% - 540px) / 2) + 40px);
@@ -627,9 +617,6 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-3 {
-    min-height: 640px;
-  }
 
   .u-section-3 .u-image-2 {
     margin-right: calc(((100% - 340px) / 2) + 40px);
@@ -1371,9 +1358,6 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-5 {
-    min-height: 898px;
-  }
 
   .u-section-5 .u-image-1 {
     width: 261px;
