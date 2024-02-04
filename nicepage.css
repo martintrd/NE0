@@ -42108,16 +42108,13 @@ a.u-link.u-text-hover-grey-90:hover {
  /*end-variables base-font-size*/
 
 @media (min-width: 0px) and (max-width: 1199px) {
-  #iphone{
-    opacity: 0;
-  }
-  #divécran{
-    opacity: 0;
+  #iphone, #divécran{
+    display: none;
   }
 } 
 @media (min-width: 0px) and (max-width: 768px) {
   .u-bulles{
-    opacity: 0;
+    display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -42259,14 +42256,14 @@ a.u-link.u-text-hover-grey-90:hover {
     height: 550px;
   }
   #div2{
-    top: -175px;
-    left: 2rem;
+    top: 200px;
+    left: 1rem;
   }
   .u-section-2{
     height: 825px;
   }
   #T3{
-    width: 450px;
+    width: 500px;
   }
 }
 @media (max-width: 575px) {
@@ -42291,4 +42288,7 @@ a.u-link.u-text-hover-grey-90:hover {
   #T3{
     width: 400px;
   }
+}
+html{
+  overflow-x: hidden;
 }
