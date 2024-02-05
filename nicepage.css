@@ -42521,6 +42521,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
   .u-section-6{
     height: 675px;
+    overflow-x: hidden;
   }
   .u-section-6 .u-image-1, #divécran2, #divécran3{
     display: none;
