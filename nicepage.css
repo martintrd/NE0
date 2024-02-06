@@ -42437,28 +42437,41 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-group-1-1{
-    top: -250px;
-    left: calc(225px - 50vw);
+    top: -300px;
+    margin-left: 0px !important;
+    left: 25px !important;
+  }
+  .u-group-1-2{
+    left: 25px;
+    top: 100px;
+  }
+  .u-layout-cell-1-1{
+    top: 65px;
+    left: 25px;
+    width: 80vw;
+  }
+  .u-section-7{
+    height: calc(1200px - 100vw);
   }
   .u-layout-wrap-2{
     position: absolute;
-    top: 175px;
+    top: 125px;
     left: 25px;
   }
-  .u-layout-row{
-    height: 375px;
-    width: 500px;
+  .u-layout-row-1{
+    height: auto;
+    width: 80vw;
   }
   .u-section-4{
-    height: 1300px;
+    height: 1325px;
   }
   .u-image-2-1{
-    top: -660px;
-    left: -70px;
+    top: -600px;
+    left: -50px;
   }
   .u-image-2-2{
-    top: -1282px;
-    left: -1px;
+    top: -1222px;
+    left: 19px;
   }
   .u-section-1{
     height: 550px;
@@ -42468,7 +42481,7 @@ a.u-link.u-text-hover-grey-90:hover {
     left: calc(20vw - 50px);
   }
   .u-section-2{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   #T3{
     width: 78vw;
@@ -42477,35 +42490,29 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 0px;
   }
   .u-section-5{
-    height: 550px;
+    height: calc(800px - 50vw);
   }
   .u-group-1-3{
     top: -360px;
   }
   .u-text-1-2{
-    width: 350px;
-    left: calc(50vw - 190px);
+    width: 80vw;
+    left: 25px;
   }
   .u-section-8{
-    height: 200px;
+    height: 150px;
     overflow: hidden !important;
   }
   .u-layout-cell-2-1{
-    left: -95px;
-    top: -168px;
+    left: -100px;
+    top: -40px;
   }
   .u-layout-cell-1-2{
-    left: -238px;
-    top: -38px;
+    left: -254px;
+    top: -5px;
   }
   .u-logo-image-1-1{
-    left: -25px;
-  }
-  .u-image-1-2{
-    width: 200px;
-  }
-  .u-image-2-4{
-
+    left: 5px;
   }
   .u-baka{
     opacity: 0;
@@ -42520,18 +42527,26 @@ a.u-link.u-text-hover-grey-90:hover {
     left: -80px;
   }
   .u-section-6{
-    height: 675px;
+    height: calc(900px - 50vw);
     overflow-x: hidden;
   }
   .u-section-6 .u-image-1, #divécran2, #divécran3{
     display: none;
   }
   .u-layout-cell-3-1{
-    top: 75px;
-    left: -50px;
+    top: -125px;
+    left: calc(200px - 50vw) !important;
+  }
+  .u-section-6 .u-layout-col{
+    width: 10px;
+  }
+  .menu-collapse{
+    position: absolute;
+    left: -225px !important;
+    margin-left: 50vw;
   }
 }
-html{
+html, body{
   overflow-x: hidden;
 }
 .u-section-1{

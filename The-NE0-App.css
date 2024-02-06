@@ -226,10 +226,13 @@
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
+    left: 25px;
     top: -250px;
   }
 
   .u-section-1 .u-text-2 {
+    left: 25px;
+    width: 60vw;
     margin-top: -235px;
   }
 
@@ -649,6 +652,11 @@
 
   .u-section-3 .u-layout-cell-2 {
     min-height: 145px;
+  } 
+  .u-section-3 {
+    background-image: url("images/neo_logo_v1_final_big_black.png");
+    background-size: 600px !important;
+    height: 450px !important;
   }
 }
 
@@ -1730,21 +1738,17 @@
   }
 
   .u-section-6 .u-line-1 {
-    width: 360px;
-    margin-top: 97px;
-    left: -48px;
-    margin-left: auto;
+    display: none;
   }
 
   .u-section-6 .u-text-1 {
     font-size: 3rem;
-    margin-top: -65px;
-    width: 375px;
+    margin-top: 50px;
+    width: 75vw;
   }
 
   .u-section-6 .u-text-2 {
-    width: 425px;
-    margin-right: 6px;
+    width: 75vw;
   }
 } .u-section-7 {
   background-image: linear-gradient(white, #e9f2fa);
